@@ -43,10 +43,6 @@
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript",
-        "plugin:jest/recommended",
-        "plugin:jest/style",
-        "plugin:testing-library/recommended",
-        "plugin:jest-dom/recommended",
         "plugin:prettier/recommended",
         "prettier/@typescript-eslint"
       ],
@@ -75,8 +71,7 @@
       },
       "env": {
         "es2020": true,
-        "browser": true,
-        "jest": true
+        "browser": true
       }
     }
   ]
